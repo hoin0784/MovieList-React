@@ -18,7 +18,7 @@ export default function Detail() {
         SetDetail(res.data.movie);
         SetLoading((prev)=>!prev);
       })
-  },[]);
+  },[id]);
   
   return (
     <div>
